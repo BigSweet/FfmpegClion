@@ -1,0 +1,7 @@
+/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/CMakeFiles/ffmpegClion4.dir
+/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/CMakeFiles/ffmpegClion3.dir
+/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/CMakeFiles/ffmpegClion2.dir
+/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/CMakeFiles/ffmpegClion1.dir
+/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/CMakeFiles/ffmpegClion.dir
