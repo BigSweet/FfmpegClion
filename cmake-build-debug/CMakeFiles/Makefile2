@@ -53,7 +53,10 @@ CMAKE_BINARY_DIR = /Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-d
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/ffmpegClion7.dir/all
+all: CMakeFiles/ffmpegClion6.dir/all
 all: CMakeFiles/ffmpegClion4.dir/all
+all: CMakeFiles/ffmpegClion5.dir/all
 all: CMakeFiles/ffmpegClion3.dir/all
 all: CMakeFiles/ffmpegClion2.dir/all
 all: CMakeFiles/ffmpegClion1.dir/all
@@ -62,7 +65,10 @@ all: CMakeFiles/ffmpegClion.dir/all
 .PHONY : all
 
 # The main recursive "clean" target.
+clean: CMakeFiles/ffmpegClion7.dir/clean
+clean: CMakeFiles/ffmpegClion6.dir/clean
 clean: CMakeFiles/ffmpegClion4.dir/clean
+clean: CMakeFiles/ffmpegClion5.dir/clean
 clean: CMakeFiles/ffmpegClion3.dir/clean
 clean: CMakeFiles/ffmpegClion2.dir/clean
 clean: CMakeFiles/ffmpegClion1.dir/clean
@@ -74,6 +80,60 @@ clean: CMakeFiles/ffmpegClion.dir/clean
 preinstall:
 
 .PHONY : preinstall
+
+#=============================================================================
+# Target rules for target CMakeFiles/ffmpegClion7.dir
+
+# All Build rule for target.
+CMakeFiles/ffmpegClion7.dir/all:
+	$(MAKE) -f CMakeFiles/ffmpegClion7.dir/build.make CMakeFiles/ffmpegClion7.dir/depend
+	$(MAKE) -f CMakeFiles/ffmpegClion7.dir/build.make CMakeFiles/ffmpegClion7.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target ffmpegClion7"
+.PHONY : CMakeFiles/ffmpegClion7.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ffmpegClion7.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ffmpegClion7.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ffmpegClion7.dir/rule
+
+# Convenience name for target.
+ffmpegClion7: CMakeFiles/ffmpegClion7.dir/rule
+
+.PHONY : ffmpegClion7
+
+# clean rule for target.
+CMakeFiles/ffmpegClion7.dir/clean:
+	$(MAKE) -f CMakeFiles/ffmpegClion7.dir/build.make CMakeFiles/ffmpegClion7.dir/clean
+.PHONY : CMakeFiles/ffmpegClion7.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ffmpegClion6.dir
+
+# All Build rule for target.
+CMakeFiles/ffmpegClion6.dir/all:
+	$(MAKE) -f CMakeFiles/ffmpegClion6.dir/build.make CMakeFiles/ffmpegClion6.dir/depend
+	$(MAKE) -f CMakeFiles/ffmpegClion6.dir/build.make CMakeFiles/ffmpegClion6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target ffmpegClion6"
+.PHONY : CMakeFiles/ffmpegClion6.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ffmpegClion6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ffmpegClion6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ffmpegClion6.dir/rule
+
+# Convenience name for target.
+ffmpegClion6: CMakeFiles/ffmpegClion6.dir/rule
+
+.PHONY : ffmpegClion6
+
+# clean rule for target.
+CMakeFiles/ffmpegClion6.dir/clean:
+	$(MAKE) -f CMakeFiles/ffmpegClion6.dir/build.make CMakeFiles/ffmpegClion6.dir/clean
+.PHONY : CMakeFiles/ffmpegClion6.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ffmpegClion4.dir
@@ -101,6 +161,33 @@ ffmpegClion4: CMakeFiles/ffmpegClion4.dir/rule
 CMakeFiles/ffmpegClion4.dir/clean:
 	$(MAKE) -f CMakeFiles/ffmpegClion4.dir/build.make CMakeFiles/ffmpegClion4.dir/clean
 .PHONY : CMakeFiles/ffmpegClion4.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ffmpegClion5.dir
+
+# All Build rule for target.
+CMakeFiles/ffmpegClion5.dir/all:
+	$(MAKE) -f CMakeFiles/ffmpegClion5.dir/build.make CMakeFiles/ffmpegClion5.dir/depend
+	$(MAKE) -f CMakeFiles/ffmpegClion5.dir/build.make CMakeFiles/ffmpegClion5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target ffmpegClion5"
+.PHONY : CMakeFiles/ffmpegClion5.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ffmpegClion5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ffmpegClion5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ffmpegClion5.dir/rule
+
+# Convenience name for target.
+ffmpegClion5: CMakeFiles/ffmpegClion5.dir/rule
+
+.PHONY : ffmpegClion5
+
+# clean rule for target.
+CMakeFiles/ffmpegClion5.dir/clean:
+	$(MAKE) -f CMakeFiles/ffmpegClion5.dir/build.make CMakeFiles/ffmpegClion5.dir/clean
+.PHONY : CMakeFiles/ffmpegClion5.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ffmpegClion3.dir

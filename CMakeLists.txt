@@ -9,6 +9,9 @@ add_executable(ffmpegClion1 media.cpp)
 add_executable(ffmpegClion2 mediaExchange.cpp)
 add_executable(ffmpegClion3 cutMedia.cpp)
 add_executable(ffmpegClion4 mergeMedia.cpp)
+add_executable(ffmpegClion5 h264Codec.cpp)
+add_executable(ffmpegClion6 videoToPic.cpp)
+add_executable(ffmpegClion7 aacCoder.cpp)
 target_link_libraries(
         ffmpegClion
         avcodec
@@ -55,6 +58,39 @@ target_link_libraries(
 )
 target_link_libraries(
         ffmpegClion4
+        avcodec
+        avdevice
+        avfilter
+        avformat
+        swresample
+        avutil
+        postproc
+        swscale
+)
+target_link_libraries(
+        ffmpegClion5
+        avcodec
+        avdevice
+        avfilter
+        avformat
+        swresample
+        avutil
+        postproc
+        swscale
+)
+target_link_libraries(
+        ffmpegClion6
+        avcodec
+        avdevice
+        avfilter
+        avformat
+        swresample
+        avutil
+        postproc
+        swscale
+)
+target_link_libraries(
+        ffmpegClion7
         avcodec
         avdevice
         avfilter

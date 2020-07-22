@@ -143,18 +143,18 @@ int h264_mp4toannexb(AVFormatContext *fmt_ctx, AVPacket *in, FILE *dst_fd) {
 
     buf = in->data;
     buf_size = in->size;
-    buf_end = in->data + in->size;
+    buf_end = in->data + in->size;//data的地址往后移size距离，指向末尾
 
     do {
         ret = AVERROR(EINVAL);
         if (buf + 4 /*s->length_size*/ > buf_end)
             goto fail;
-
+        //前四个字节是H264帧的size
         for (nal_size = 0, i = 0; i < 4/*s->length_size*/; i++)
-            nal_size = (nal_size << 8) | buf[i];
+            nal_size = (nal_size << 8) | buf[i];  //2*2^8 |
 
         buf += 4; /*s->length_size;*/
-        unit_type = *buf & 0x1f;
+        unit_type = *buf & 0x1f;//帧数据的后5位是nal单元  sps =7 pps=8 关键帧 =5 非关键帧 =1
 
         if (nal_size > buf_end - buf || nal_size < 0)
             goto fail;
@@ -201,7 +201,7 @@ int h264_mp4toannexb(AVFormatContext *fmt_ctx, AVPacket *in, FILE *dst_fd) {
 
             if ((ret = alloc_and_copy(out,
                                       spspps_pkt.data, spspps_pkt.size,
-                                      buf, nal_size)) < 0)
+                                      buf, nal_size)) < 0)//给数据添加特征码
                 goto fail;
             /*s->new_idr = 0;*/
             /* if only SPS has been seen, also insert PPS */

@@ -27,6 +27,94 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="ffmpegClion7">
+				<Option output="/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/ffmpegClion7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/ffmpeg/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 ffmpegClion7"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ffmpegClion7/fast">
+				<Option output="/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/ffmpegClion7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/ffmpeg/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 ffmpegClion7/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ffmpegClion6">
+				<Option output="/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/ffmpegClion6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/ffmpeg/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 ffmpegClion6"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ffmpegClion6/fast">
+				<Option output="/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/ffmpegClion6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/ffmpeg/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 ffmpegClion6/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="ffmpegClion4">
 				<Option output="/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/ffmpegClion4" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug"/>
@@ -66,6 +154,50 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 ffmpegClion4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ffmpegClion5">
+				<Option output="/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/ffmpegClion5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/ffmpeg/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 ffmpegClion5"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ffmpegClion5/fast">
+				<Option output="/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/ffmpegClion5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/ffmpeg/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 ffmpegClion5/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -258,8 +390,14 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/aacCoder.cpp">
+			<Option target="ffmpegClion7"/>
+		</Unit>
 		<Unit filename="/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/cutMedia.cpp">
 			<Option target="ffmpegClion3"/>
+		</Unit>
+		<Unit filename="/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/h264Codec.cpp">
+			<Option target="ffmpegClion5"/>
 		</Unit>
 		<Unit filename="/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/main.cpp">
 			<Option target="ffmpegClion"/>
@@ -272,6 +410,9 @@
 		</Unit>
 		<Unit filename="/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/mergeMedia.cpp">
 			<Option target="ffmpegClion4"/>
+		</Unit>
+		<Unit filename="/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/videoToPic.cpp">
+			<Option target="ffmpegClion6"/>
 		</Unit>
 		<Unit filename="/Users/yanzhe/ffmpeg/ffmpeg_install/ffmpegClion/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ffmpegClion7
+
+# Build rule for target.
+ffmpegClion7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ffmpegClion7
+.PHONY : ffmpegClion7
+
+# fast build rule for target.
+ffmpegClion7/fast:
+	$(MAKE) -f CMakeFiles/ffmpegClion7.dir/build.make CMakeFiles/ffmpegClion7.dir/build
+.PHONY : ffmpegClion7/fast
+
+#=============================================================================
+# Target rules for targets named ffmpegClion6
+
+# Build rule for target.
+ffmpegClion6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ffmpegClion6
+.PHONY : ffmpegClion6
+
+# fast build rule for target.
+ffmpegClion6/fast:
+	$(MAKE) -f CMakeFiles/ffmpegClion6.dir/build.make CMakeFiles/ffmpegClion6.dir/build
+.PHONY : ffmpegClion6/fast
+
+#=============================================================================
 # Target rules for targets named ffmpegClion4
 
 # Build rule for target.
@@ -122,6 +148,19 @@ ffmpegClion4: cmake_check_build_system
 ffmpegClion4/fast:
 	$(MAKE) -f CMakeFiles/ffmpegClion4.dir/build.make CMakeFiles/ffmpegClion4.dir/build
 .PHONY : ffmpegClion4/fast
+
+#=============================================================================
+# Target rules for targets named ffmpegClion5
+
+# Build rule for target.
+ffmpegClion5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ffmpegClion5
+.PHONY : ffmpegClion5
+
+# fast build rule for target.
+ffmpegClion5/fast:
+	$(MAKE) -f CMakeFiles/ffmpegClion5.dir/build.make CMakeFiles/ffmpegClion5.dir/build
+.PHONY : ffmpegClion5/fast
 
 #=============================================================================
 # Target rules for targets named ffmpegClion3
@@ -175,6 +214,33 @@ ffmpegClion/fast:
 	$(MAKE) -f CMakeFiles/ffmpegClion.dir/build.make CMakeFiles/ffmpegClion.dir/build
 .PHONY : ffmpegClion/fast
 
+aacCoder.o: aacCoder.cpp.o
+
+.PHONY : aacCoder.o
+
+# target to build an object file
+aacCoder.cpp.o:
+	$(MAKE) -f CMakeFiles/ffmpegClion7.dir/build.make CMakeFiles/ffmpegClion7.dir/aacCoder.cpp.o
+.PHONY : aacCoder.cpp.o
+
+aacCoder.i: aacCoder.cpp.i
+
+.PHONY : aacCoder.i
+
+# target to preprocess a source file
+aacCoder.cpp.i:
+	$(MAKE) -f CMakeFiles/ffmpegClion7.dir/build.make CMakeFiles/ffmpegClion7.dir/aacCoder.cpp.i
+.PHONY : aacCoder.cpp.i
+
+aacCoder.s: aacCoder.cpp.s
+
+.PHONY : aacCoder.s
+
+# target to generate assembly for a file
+aacCoder.cpp.s:
+	$(MAKE) -f CMakeFiles/ffmpegClion7.dir/build.make CMakeFiles/ffmpegClion7.dir/aacCoder.cpp.s
+.PHONY : aacCoder.cpp.s
+
 cutMedia.o: cutMedia.cpp.o
 
 .PHONY : cutMedia.o
@@ -201,6 +267,33 @@ cutMedia.s: cutMedia.cpp.s
 cutMedia.cpp.s:
 	$(MAKE) -f CMakeFiles/ffmpegClion3.dir/build.make CMakeFiles/ffmpegClion3.dir/cutMedia.cpp.s
 .PHONY : cutMedia.cpp.s
+
+h264Codec.o: h264Codec.cpp.o
+
+.PHONY : h264Codec.o
+
+# target to build an object file
+h264Codec.cpp.o:
+	$(MAKE) -f CMakeFiles/ffmpegClion5.dir/build.make CMakeFiles/ffmpegClion5.dir/h264Codec.cpp.o
+.PHONY : h264Codec.cpp.o
+
+h264Codec.i: h264Codec.cpp.i
+
+.PHONY : h264Codec.i
+
+# target to preprocess a source file
+h264Codec.cpp.i:
+	$(MAKE) -f CMakeFiles/ffmpegClion5.dir/build.make CMakeFiles/ffmpegClion5.dir/h264Codec.cpp.i
+.PHONY : h264Codec.cpp.i
+
+h264Codec.s: h264Codec.cpp.s
+
+.PHONY : h264Codec.s
+
+# target to generate assembly for a file
+h264Codec.cpp.s:
+	$(MAKE) -f CMakeFiles/ffmpegClion5.dir/build.make CMakeFiles/ffmpegClion5.dir/h264Codec.cpp.s
+.PHONY : h264Codec.cpp.s
 
 main.o: main.cpp.o
 
@@ -310,6 +403,33 @@ mergeMedia.cpp.s:
 	$(MAKE) -f CMakeFiles/ffmpegClion4.dir/build.make CMakeFiles/ffmpegClion4.dir/mergeMedia.cpp.s
 .PHONY : mergeMedia.cpp.s
 
+videoToPic.o: videoToPic.cpp.o
+
+.PHONY : videoToPic.o
+
+# target to build an object file
+videoToPic.cpp.o:
+	$(MAKE) -f CMakeFiles/ffmpegClion6.dir/build.make CMakeFiles/ffmpegClion6.dir/videoToPic.cpp.o
+.PHONY : videoToPic.cpp.o
+
+videoToPic.i: videoToPic.cpp.i
+
+.PHONY : videoToPic.i
+
+# target to preprocess a source file
+videoToPic.cpp.i:
+	$(MAKE) -f CMakeFiles/ffmpegClion6.dir/build.make CMakeFiles/ffmpegClion6.dir/videoToPic.cpp.i
+.PHONY : videoToPic.cpp.i
+
+videoToPic.s: videoToPic.cpp.s
+
+.PHONY : videoToPic.s
+
+# target to generate assembly for a file
+videoToPic.cpp.s:
+	$(MAKE) -f CMakeFiles/ffmpegClion6.dir/build.make CMakeFiles/ffmpegClion6.dir/videoToPic.cpp.s
+.PHONY : videoToPic.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -317,15 +437,24 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... ffmpegClion7"
+	@echo "... ffmpegClion6"
 	@echo "... ffmpegClion4"
+	@echo "... ffmpegClion5"
 	@echo "... ffmpegClion3"
 	@echo "... ffmpegClion2"
 	@echo "... edit_cache"
 	@echo "... ffmpegClion1"
 	@echo "... ffmpegClion"
+	@echo "... aacCoder.o"
+	@echo "... aacCoder.i"
+	@echo "... aacCoder.s"
 	@echo "... cutMedia.o"
 	@echo "... cutMedia.i"
 	@echo "... cutMedia.s"
+	@echo "... h264Codec.o"
+	@echo "... h264Codec.i"
+	@echo "... h264Codec.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -338,6 +467,9 @@ help:
 	@echo "... mergeMedia.o"
 	@echo "... mergeMedia.i"
 	@echo "... mergeMedia.s"
+	@echo "... videoToPic.o"
+	@echo "... videoToPic.i"
+	@echo "... videoToPic.s"
 .PHONY : help
 
 
